@@ -4,6 +4,6 @@ Let's going through [Rust documentation books](https://doc.rust-lang.org/book/) 
 1. Common Programming Conceptd
     - ~~Variable and Mutability~~
     - ~~Data Types~~
-    - Functions
+    - ~~Functions~~
     - Comments
     - Control Flows
