@@ -7,3 +7,8 @@ Let's going through [Rust documentation books](https://doc.rust-lang.org/book/) 
     - ~~Functions~~
     - ~~Comments~~
     - ~~Control Flows~~
+
+2. Understanding Ownership
+    - What is Ownership
+    - References and Borrowing
+    - The Slice Type
