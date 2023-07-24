@@ -2,7 +2,7 @@ fn main() {
     println!("\n");
     // variables();
     // data_types();
-    functions();
+    // functions();
 }
 
 // fn variables() {
@@ -126,21 +126,22 @@ fn main() {
 
 // }
 
-fn functions() {
-        let y = {
-            let x = 3;
-            // return
-            x + 1
-    };
+// fn functions() {
+//         let y = {
+//             let x = 3;
+//             // return
+//             x + 1
+//     };
 
-    println!("The value of y is: {y}");
+//     println!("The value of y is: {y}");
 
-    let s = sum(5, 6);
+//     let s = sum(5, 6);
 
-    println!("sum of 5 + 6 = {s}");
+//     println!("sum of 5 + 6 = {s}");
 
-    fn sum(a: i32, b: i32) -> i32 {
-        // return without return keyword, ommit ;
-        a + b
-    }
-}
+//     fn sum(a: i32, b: i32) -> i32 {
+//         // return without return keyword, ommit ;
+//         a + b
+//     }
+// }
+

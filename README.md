@@ -5,5 +5,5 @@ Let's going through [Rust documentation books](https://doc.rust-lang.org/book/) 
     - ~~Variable and Mutability~~
     - ~~Data Types~~
     - ~~Functions~~
-    - Comments
+    - ~~Comments~~
     - Control Flows
