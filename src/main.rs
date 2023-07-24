@@ -3,6 +3,7 @@ fn main() {
     // variables();
     // data_types();
     // functions();
+    control_flow();
 }
 
 // fn variables() {
@@ -145,3 +146,95 @@ fn main() {
 //     }
 // }
 
+fn control_flow() {
+    let number: i8 = 7;
+
+    // if number > 5 {
+    //     println!("Condition was true");
+    // } else {
+    //     println!("Condition was false");
+    // }
+
+    // if number != 0 {
+    //     println!("Conidition was true");
+    // }
+
+    if number < 0 {
+        println!("Number less then zero");
+    }  else if number > 0 && number <= 10 {
+        println!("Number are between 0 and 10")
+    } else {
+        println!("Number are greater then zero");
+    }
+
+    let is_seven: &str = if number == 7 { "yes" } else { "no" };
+
+    println!("{is_seven}");
+
+    let mut number: u8 = 0;
+    loop {
+        if number > 7 { break }
+
+        println!("Number: {number}");
+        number += 1;
+    }
+
+    let mut number: u8 = 0;
+    let result: u8 = loop {
+        number += 1;
+        if number == 10 { break number * 2 }
+    };
+
+    println!("number: {result}");
+
+    // labeling loop
+
+    let mut count: u8 = 0;
+    'first_loop: loop {
+        let mut remain: u8 = 10;
+
+         loop {
+            println!("count {count}");
+            println!("remain {remain}");
+
+            if count == 2 {
+                break 'first_loop;
+            }
+
+            if remain == 8 {
+                break;
+            }
+            remain -= 1;
+         }
+         count += 1;
+    }
+
+    println!("\n\n");
+
+    // while loop
+
+    let mut number: u8 = 3;
+
+    while number != 0 {
+        println!("{number}");
+        number -= 1;
+    }
+    println!("LIFT OFF");
+
+    // loop through collection
+    println!("\n\n");
+
+    let names: [&str; 3]  = ["Romeo", "Kyoto", "Jaka"];
+    // let age: [u8; 3] = [18, 1, 1];
+
+    for name in names {
+        println!("my name is {name}");
+    }
+
+    // Range
+
+    for number in (1..4).rev() {
+        println!("number: {number}")
+    }
+
+}

@@ -6,4 +6,4 @@ Let's going through [Rust documentation books](https://doc.rust-lang.org/book/) 
     - ~~Data Types~~
     - ~~Functions~~
     - ~~Comments~~
-    - Control Flows
+    - ~~Control Flows~~
