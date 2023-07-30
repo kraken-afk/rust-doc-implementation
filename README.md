@@ -9,6 +9,6 @@ Let's going through [Rust documentation books](https://doc.rust-lang.org/book/) 
     - ~~Control Flows~~
 
 2. Understanding Ownership
-    - What is Ownership
-    - References and Borrowing
+    - ~~What is Ownership~~
+    - ~~References and Borrowing~~
     - The Slice Type
